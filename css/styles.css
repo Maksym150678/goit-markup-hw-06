@@ -93,7 +93,7 @@ section {
     border-bottom: 1px solid #ECECEC;
 }
 
-:list {
+list {
     margin: 0;
 }
 
@@ -880,7 +880,7 @@ h3 {
 }
 
 .benefits {
-    padding: top 94px;
+    padding-top: 94px;
     padding-bottom: 0;
 }
 
