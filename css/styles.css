@@ -440,7 +440,7 @@ h2 {
     line-height: 1.14;
     color: var(--main-txt-clr);
 
-    transition-property: background-color;
+    transition-property: color;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--timing-function);
 }
@@ -455,6 +455,10 @@ h2 {
     font-size: 14px;
     line-height: 1.14px;
     color: var(--main-txt-clr);
+
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);
 }
 
 .contacts-link-tel:hover {
@@ -1052,7 +1056,8 @@ address {
     background-color: #F5F4FA;
 
     cursor: pointer;
-    transition-property: background-color, transform, opacity;
+    transition-property: background-color,
+        box-shadow, color;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--timing-function);
 
