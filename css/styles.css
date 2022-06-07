@@ -1321,6 +1321,9 @@ address {
     height: 30px;
     top: 8px;
     right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     background-color: #FFFFFF;
     border-color: rgba(0, 0, 0, 0.1);
@@ -1470,9 +1473,17 @@ textarea {
     line-height: 1.71;
 }
 
+
 .conditions {
     color: #2196F3;
+    text-decoration: underline;
+    transition: border-color var(--transition-duration) var(--timing-function);
+    cursor: pointer;
+
+
 }
+
+
 
 .checkbox-input {
     position: absolute;
@@ -1484,8 +1495,6 @@ textarea {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-
 
 .icon {
     display: inline-block;
@@ -1519,6 +1528,8 @@ textarea {
     cursor: pointer;
 }
 
+
+
 .modal-button {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1532,7 +1543,7 @@ textarea {
     line-height: 1.88;
     letter-spacing: var(--hero-letter-spacing);
 
-    background: #2196F3;
+    background: var(--secondary-txt-clr);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
@@ -1542,9 +1553,6 @@ textarea {
     transition: background-color var(--transition-duration) var(--timing-function);
 }
 
-.modal-button:hover {
-    background: #188CE8;
-}
 
 .form-label {
     position: absolute;
